@@ -83,7 +83,8 @@
   text-align-last: center;
   font-weight: bold;
   padding-top: 10px;
-  display: none;
+  background-color: #ffffff;
+  /*display: none;*/
 }
 
 .selected-product-cateory {
@@ -139,5 +140,10 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+.product-itmtext {
+  text-align: center;
+  font-family: Poppins;
 }
 
