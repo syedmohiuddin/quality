@@ -180,6 +180,7 @@
   #contactus-headsection {
     height: 170px;
     background-size: auto;
+    margin-top: 90px;
   }
 }
 
@@ -260,6 +261,16 @@
   .terms-n-cond-text {
     width: 100%;
     font-size: 15px;
+  }
+}
+
+.salespara-margin-spec {
+  margin-bottom: 11px;
+}
+
+@media (max-width: 767px) {
+  .salespara-margin-spec {
+    margin-bottom: 0px;
   }
 }
 
