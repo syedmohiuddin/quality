@@ -274,3 +274,13 @@
   }
 }
 
+.policy-list-align {
+  margin-left: 34.2857px;
+}
+
+@media (max-width: 767px) {
+  .policy-list-align {
+    margin-left: 5px;
+  }
+}
+
