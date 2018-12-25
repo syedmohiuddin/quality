@@ -123,9 +123,9 @@
 }
 
 .image-product-thumbnail {
-  height: 700px;
-  margin-top: 10px;
-  overflow: auto;
+  /*height: 700px;*/
+  /*margin-top: 10px;*/
+  /*overflow: auto;*/
 }
 
 @media (max-width: 767px) {
@@ -159,5 +159,19 @@
 .product-itmtext {
   text-align: center;
   font-family: Poppins;
+}
+
+.list-menu-products {
+  border-bottom: 1px solid #f2f0f0;
+  height: 40px;
+  text-align: left;
+  padding-top: 4px;
+  font-family: 'Roboto';
+}
+
+.list-menu-btn {
+  background-color: rgb(242,240,240);
+  font-family: 'Roboto';
+  font-weight: normal;
 }
 

@@ -169,12 +169,15 @@
 #map-body {
   border: 1px;
   border-style: ridge;
+  border-color: #e4e3e3;
 }
 
 @media (max-width: 767px) {
   #map-body {
-    border: 0.5px;
+    border: 1px;
     border-style: ridge;
+    border-color: #e4e3e3;
+    background-color: white;
   }
 }
 
@@ -242,6 +245,9 @@
   border-right-style: inset;
   border-top: 1px solid rgb(245,242,242);
   margin-top: 0px;
+  border-bottom-color: #ededed;
+  border-right-color: #ededed;
+  border-left-color: #ededed;
 }
 
 @media (max-width: 767px) {
@@ -253,6 +259,9 @@
     border-right-style: inset;
     border-top: 1px solid rgb(245,242,242);
     margin-top: 0px;
+    border-bottom-color: #ededed;
+    border-right-color: #ededed;
+    border-left-color: #ededed;
   }
 }
 
@@ -676,6 +685,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #f7f7f7;
+  border-color: #e4e3e3;
 }
 
 @media (max-width: 767px) {
@@ -685,6 +695,7 @@
     margin-top: 5px;
     margin-bottom: 0px;
     background-color: #f7f7f7;
+    border-color: #e4e3e3;
   }
 }
 

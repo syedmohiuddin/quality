@@ -143,7 +143,7 @@
 }
 
 .home-prdt-icon-thumbnail {
-  margin-bottom: 22px;
+  margin-bottom: 6px;
 }
 
 @media (max-width: 767px) {
@@ -519,6 +519,39 @@
 @media (max-width: 767px) {
   .client-testimonials {
     margin-bottom: 15px;
+  }
+}
+
+.test {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.supported-bike-specs {
+  height: 280px;
+}
+
+.padding-featured-vehicle-siz {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+@media (max-width: 767px) {
+  .padding-featured-vehicle-siz {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.vehicle-align {
+  width: 95%;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .vehicle-align {
+    width: 105%;
+    margin-left: -10px;
   }
 }
 
