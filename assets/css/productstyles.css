@@ -1,6 +1,6 @@
 #products-headsection {
   height: 250px;
-  background-image: url(../../assets/img/contactus/bg.png);
+  background-image: url(../../assets/img/products/commons/product_header_4.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 110px;
@@ -88,6 +88,19 @@
   /*display: none;*/
 }
 
+@media (max-width: 991px) {
+  .product-image-div-content-paragraph {
+    font-size: 17px;
+    width: 100%;
+    height: 84px;
+    text-align-last: center;
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: #ffffff;
+    /*display: none;*/
+  }
+}
+
 @media (max-width: 767px) {
   .product-image-div-content-paragraph {
     font-size: 15px;
@@ -173,5 +186,11 @@
   background-color: rgb(242,240,240);
   font-family: 'Roboto';
   font-weight: normal;
+}
+
+.dropdown-scroller {
+  height: 350px;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 

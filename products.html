@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="assets/css/contactusstyles.css">
     <link rel="stylesheet" href="assets/css/homestyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/productstyles.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 <link href="favicon/browsericon.png" rel="icon">
@@ -34,10 +35,10 @@
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav navbar-right main-navmenu">
-                    <li role="presentation"><a href="index.html" class="navbar-border-style quality-roboto" style="color:#000000;"><strong>Home</strong> </a></li>
-                    <li role="presentation"><a href="aboutus.html" class="navbar-border-style quality-roboto" style="color:#000000;"><strong>About Us</strong></a></li>
-                    <li class="active" role="presentation"><a href="products.html" class="navbar-border-style quality-roboto" style="color:#000000;"><strong> Products</strong><div class="dark-theme-background-quality" style="height:3px;width:45px;border-radius:5px;"></div></a></li>
-                    <li role="presentation"><a href="contactus.html" class="navbar-border-style quality-roboto" style="color:#000000;"><strong>Contact Us</strong></a></li>
+                    <li role="presentation"><a href="index.html" class="navbar-border-style quality-poppins" style="color:#000000;"><strong>Home</strong> </a></li>
+                    <li role="presentation"><a href="aboutus.html" class="navbar-border-style quality-poppins" style="color:#000000;"><strong>About Us</strong></a></li>
+                    <li class="active" role="presentation"><a href="products.html" class="navbar-border-style quality-poppins" style="color:#000000;"><strong> Products</strong><div class="dark-theme-background-quality" style="height:3px;width:45px;border-radius:5px;"></div></a></li>
+                    <li role="presentation"><a href="contactus.html" class="navbar-border-style quality-poppins" style="color:#000000;"><strong>Contact Us</strong></a></li>
                 </ul>
             </div>
         </div>
@@ -70,10 +71,12 @@
         <!--<select  class="form-control" >
          <option>Crash bars</option>
           </select>-->
-<ul class="nav nav-pills nav-stacked">
+                  
+<ul class="nav nav-pills nav-stacked" >
                     <li class="dropdown dropdown1 list-menu-btn">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="products.html">Crash Bar<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
+                      <ul class="dropdown-menu dropdown-scroller">
+                        <li class="list-menu-products"><a href="products.html"><p style="color:#5170b2">Crash Bar</p></a></li> 
                         <li class="list-menu-products"><a href="product_straightbar.html">Straight Bar</a></li>
                         <li class="list-menu-products"><a href="product_carrier.html">Carrier</a></li>
                         <li class="list-menu-products"><a href="product_sareeguard.html">Saree Guard</a></li>
@@ -89,7 +92,7 @@
                         <li class="list-menu-products"><a href="product_other.html">Other Accessories</a></li>
                       </ul>
                     </li>
-                </ul>      
+                </ul>  
             </th>
           </tr>
       </table>
@@ -105,7 +108,7 @@
                                     <li class="product-list-element product-category-border-style"><a href="product_carrier.html" style="text-decoration:none;"><span class="product-category-labels" style="color:rgb(7,7,7);">Carriers </span></a></li>
                                     <li class="product-list-element product-category-border-style"><a href="product_sareeguard.html" style="text-decoration:none;"><span class="product-category-labels" style="color:rgb(7,7,7);">Saree Guard </span></a></li>
                                     <li class="product-list-element product-category-border-style">
-                                    <a href="product_batterybox.html"><span class="product-category-labels" style="color:rgb(14,14,14);">Battery Box </span></a></li>
+                                    <a href="product_batterybox.html" style="text-decoration:none;"><span class="product-category-labels" style="color:rgb(14,14,14);">Battery Box </span></a></li>
                                     <li class="product-list-element product-category-border-style"><a href="product_handlebar.html" style="text-decoration:none;"><span class="product-category-labels" style="color:rgb(7,7,7);">Handle Bars </span></a></li>
                                     <li class="product-list-element product-category-border-style"><a href="product_pillionholder.html" style="text-decoration:none;"><span class="product-category-labels" style="color:rgb(7,7,7);">Pillion Holder </span></a></li>
                                     <li class="product-list-element product-category-border-style"><a href="product_sidestand.html" style="text-decoration:none;"><span class="product-category-labels" style="color:rgb(7,7,7);">Side Stand </span></a></li>
@@ -125,7 +128,7 @@
                         <div>
                             <div class="image-product-thumbnail">
                                 <div class="row head-intro-image-section">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                                         <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/bucb101.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar - BUCB101" data-caption="this is the sample text"><img class="img-responsive" src="assets/img/products/crash%20Bar/bucb101.jpg" style="width: 100%;height: 100%;"></a>
                                             <div
                                                 class="product-image-div-content-paragraph">
@@ -133,28 +136,28 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                                     <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB102.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round - BUCB102"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB102.jpg" style="width: 100%;height: 100%;"></a>
                                         <div class="product-image-div-content-paragraph">
                                             <p class="product-itmtext"><strong>Airfly Crash Bar Round - BUCB102</strong></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                                     <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB103.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar New - BUCB103"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB103.jpg" style="width: 100%;height: 100%;"></a>
                                         <div class="product-image-div-content-paragraph">
                                             <p class="product-itmtext"><strong>Airfly Crash Bar New - BUCB103</strong></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                                     <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB104.jpg" target="_blank" data-lightbox="cakes" data-title="Butterfly Crash Bar - 104"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB104.jpg" style="width: 100%;height: 100%;"></a>
                                         <div class="product-image-div-content-paragraph">
                                             <p class="product-itmtext">Butterfly Crash Bar &nbsp;- BUCB104</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                                     <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB106.jpg" target="_blank" data-lightbox="cakes" data-title="Plain Crash Bar Old (Sep Fittings) - 106"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB106.jpg" style="width: 100%;height: 100%;"></a>
                                         <div
                                             class="product-image-div-content-paragraph">
@@ -162,7 +165,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                                 <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB107.jpg" target="_blank" data-lightbox="cakes" data-title="Plain Crash Bar New (Fixed Fittings) - BUCB107"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB107.jpg" style="width: 100%;height: 100%;"></a>
                                     <div
                                         class="product-image-div-content-paragraph">
@@ -170,378 +173,378 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB108.jpg" target="_blank" data-lightbox="cakes" data-title="Daimond Crash Bar - BUCB108"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB108.jpg" style="width: 100%;height: 100%;"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar - BUCB108</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB109.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar W/o Centre Rod - BUCB109"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB109.jpg" style="width: 100%;height: 100%;"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext"><strong>Diamond Crash Bar &nbsp;W/o Centre Rod - BUCB109</strong></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB110.jpg" target="_blank" data-lightbox="cakes" data-title="Military Crash Bar - BUCB110"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB110.jpg" style="width: 100%;height: 100%;"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Military Crash Bar &nbsp;- BUCB110</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB111.jpg" target="_blank" data-lightbox="cakes" data-title="Rear Crash Bar Set Old 350CC - BUCB111"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB111.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Rear Crash Bar Set Old 350CC - BUCB111</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB112.jpg" target="_blank" data-lightbox="cakes" data-title="Rear Crash Bar Set C350/C500 - BUCB112"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB112.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Rear Crash Bar Set C350/C500 - BUCB112</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB113.jpg" target="_blank" data-lightbox="cakes" data-title="Oval Type Crash Bar - BUCB113"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB113.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Oval Type Crash Bar - BUCB113</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB121.jpg" target="_blank" data-lightbox="cakes" data-title="Heavy Duty Crash Bar - BUCB121"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB121.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext"> Heavy Duty Crash Bar - BUCB121</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB126.jpg" target="_blank" data-lightbox="cakes" data-title="Hexagon Crash Bar - BUCB126"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB126.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Hexagon Crash Bar - BUCB126</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB127.jpg" target="_blank" data-lightbox="cakes" data-title="Heavy Duty Crash Bar Pulsar Type - BUCB127"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB127.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext"> Heavy Duty Crash Bar Pulsar Type - BUCB127</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB128.jpg" target="_blank" data-lightbox="cakes" data-title="Trible Crash Bar - BUCB128"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB128.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Trible Crash Bar - BUCB128 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB134.jpg" target="_blank" data-lightbox="cakes" data-title="Heavy Duty Cras Bar - BUCB134"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB134.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Heavy Duty Cras Bar - BUCB134 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB135.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar (Heavy Duty) -BUCB135"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB135.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar (Heavy Duty) -BUCB135 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB137.jpg" target="_blank" data-lightbox="cakes" data-title="Wings Crash Bar - BUCB137"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB137.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Wings Crash Bar - BUCB137 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB139.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Heavy Duty - BUCB139"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB139.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Heavy Duty - BUCB139 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-11 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-11 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB140.jpg" target="_blank" data-lightbox="cakes" data-title="Butterfly Crash Bar Heavy Duty - BUCB140"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB140.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Butterfly Crash Bar Heavy Duty - BUCB140 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB141.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Heavy Duty Black - BUCB141"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB141.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Heavy Duty Black - BUCB141 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB144.jpg" target="_blank" data-lightbox="cakes" data-title="Plain Crash Bar Heavy Duty (Fix.Fitt) New - BUCB144"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB144.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Plain Crash Bar Heavy Duty (Fix.Fitt) New - BUCB144 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB145.jpg" target="_blank" data-lightbox="cakes" data-title="Butterfly Crash Bar Heavy Duty Black - BUCB145"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB145.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Butterfly Crash Bar Heavy Duty Black - BUCB145 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB147.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round Heavy Duty - BUCB147"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB147.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Round Heavy Duty - BUCB147 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB148.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round Heavy Duty Black - BUCB148"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB148.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Round Heavy Duty Black - BUCB148 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB149.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar Mota Plain - BUCB149"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB149.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar Mota Plain - BUCB149 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB150.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar Mota Plain Black- BUCB150"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB150.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar Mota Plain Black- BUCB150 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB151.jpg" target="_blank" data-lightbox="Diamond Crash Bar Mota - BUCB151"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB151.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar Mota - BUCB151 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB152.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar Mota Black- BUCB152"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB152.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar Mota Black- BUCB152 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB153.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round Steel(3014) - BUCB153"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB153.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Round Steel(3014) - BUCB153 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB154.jpg" target="_blank" data-lightbox="cakes" data-title="Kohinoor Crash Bar - BUCB154"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB154.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Kohinoor Crash Bar - BUCB154 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB156.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar HD Rope Type - BUCB156"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB156.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar HD Rope Type - BUCB156 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB157.jpg" target="_blank" data-lightbox="cakes" data-title="Heavy Duty Crash Bar Pulsar Rope Type - BUCB157"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB157.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Heavy Duty Crash Bar Pulsar Rope Type - BUCB157 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB158.jpg" target="_blank" data-lightbox="cakes" data-title="Himalayan Crash Bar Black - BUCB158"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB158.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Himalayan Crash Bar Black - BUCB158 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB159.jpg" target="_blank" data-lightbox="cakes" data-title="Wings Crash Bar Rope Type - BUCB159"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB159.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Wings Crash Bar Rope Type - BUCB159 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB160.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Steel(202G) - BUCB160"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB160.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Steel(202G) - BUCB160 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB161.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar Steel(202G) - BUCB161"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB161.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar Steel(202G) - BUCB161 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB162.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round Steel(202G) - BUCB162"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB162.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Round Steel(202G) - BUCB162 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB163.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar HD Steel (202G) - BUCB163"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB163.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar HD Steel (202G) - BUCB163 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB164.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar HD Steel (202G) - BUCB164"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB164.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar HD Steel (202G) - BUCB164 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB166.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Bar HD New Steel (202G) - BUCB166"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB166.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Bar HD New Steel (202G) - BUCB166 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB167.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Bar HD New - BUCB167"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB167.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Bar HD New - BUCB167 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB168.jpg" target="_blank" data-lightbox="cakes" data-title="Plain Crash Bar Rope Type - BUCB168"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB168.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Plain Crash Bar Rope Type - BUCB168 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB169.jpg" target="_blank" data-lightbox="cakes" data-title="Butterfly Crash Bar HD Rope Type - BUCB169"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB169.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Butterfly Crash Bar HD Rope Type - BUCB169 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB170.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round HD Steel(202 G) - BUCB170"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB170.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Round HD Steel(202 G) - BUCB170 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB172.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar HD Rope Type - BUCB172"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB172.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar HD Rope Type - BUCB172 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB176.jpg" target="_blank" data-lightbox="cakes" data-title="Harley Type Crash Bar CP - BUCB176"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB176.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Harley Type Crash Bar CP - BUCB176 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB177.jpg" target="_blank" data-lightbox="cakes" data-title="Harley Type Crash Bar BK - BUCB177"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB177.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Harley Type Crash Bar BK - BUCB177 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB178.jpg" target="_blank" data-lightbox="cakes" data-title="Harley Crash Bar Rope Type - BUCB178"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB178.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Harley Crash Bar Rope Type - BUCB178 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB179.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar HD Double Pipe Rope Type - BUCB179"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB179.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar HD Double Pipe Rope Type - BUCB179 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB180.jpg" target="_blank" data-lightbox="cakes" data-title="Diamond Crash Bar HD Double Pipe CP - BUCB180"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB180.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Diamond Crash Bar HD Double Pipe CP - BUCB180 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB182.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Round HD Rope Type - BUCB182"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB182.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Round HD Rope Type - BUCB182 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB183.jpg" target="_blank" data-lightbox="cakes" data-title="Airfly Crash Bar Latest Steel - BUCB183"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB183.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Airfly Crash Bar Latest Steel - BUCB183 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUCB185.jpg" target="_blank" data-lightbox="cakes" data-title="Rear Crash Bar Set Electra/UCE - BUCB185"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUCB185.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Rear Crash Bar Set Electra/UCE - BUCB185 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUTB2001.jpg" target="_blank" data-lightbox="cakes" data-title="TBTS Crash Bar Old CP - BUTB2001"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUTB2001.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">TBTS Crash Bar Old CP - BUTB2001&nbsp; </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUTB2013.jpg" target="_blank" data-lightbox="cakes" data-title="Crash Bar C350/C500 - (T.Bird New) CP - BUTB2013"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUTB2013.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext">Crash Bar C350/C500 - (T.Bird New) CP - BUTB2013 </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUTB2018.jpg" target="_blank" data-lightbox="cakes" data-title="T.Bird Crash Bar New Rope Type - BUTB2018"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUTB2018.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext"><strong>T.Bird Crash Bar New Rope Type - BUTB2018</strong><br></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUTB2014.jpg" target="_blank" data-lightbox="cakes" data-title="T.Bird 350/500cc Crash Bar New Bk - BUTB2014"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUTB2014.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext"><strong>T.Bird 350/500cc Crash Bar New Bk - BUTB2014</strong><br></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product-gallery-colpadding" data-aos="slide-up" data-aos-delay="200">
                             <div class="thumbnail" data-bs-hover-animate="pulse"><a href="assets/img/products/crash%20Bar/BUTB2019.jpg" target="_blank" data-lightbox="cakes" data-title="T.Bird Crash Bar New HD Steel(202G) - BUTB2019"><img class="img-responsive" src="assets/img/products/crash%20Bar/BUTB2019.jpg"></a>
                                 <div class="product-image-div-content-paragraph">
                                     <p class="product-itmtext"><strong>T.Bird Crash Bar New HD Steel(202G) - BUTB2019</strong></p>
@@ -569,7 +572,7 @@
                 </div>
             </div>
             <div class="row head-intro-image-section">
-                <div class="col-lg-2 col-md-2 bottom-border-bnr-footer">
+                <div class="col-lg-2 col-md-2 col-sm-4 bottom-border-bnr-footer">
                     <ul class="fa-ul quality-roboto" style="margin-left: 0px;">
                         <li>
                             <a href="products.html" style="text-decoration:none;">
@@ -598,7 +601,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-2 bottom-border-bnr-footer">
+                <div class="col-lg-2 col-md-2 col-sm-4 bottom-border-bnr-footer">
                     <ul class="fa-ul quality-roboto" style="margin-left: 0px;">
                         <li>
                             <a href="product_handlebar.html" style="text-decoration:none;">
@@ -627,7 +630,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-2 bottom-border-bnr-footer">
+                <div class="col-lg-2 col-md-2 col-sm-4 bottom-border-bnr-footer">
                     <ul class="fa-ul quality-roboto" style="margin-left: 0px;">
                         <li>
                             <a href="product_exhaustpipe.html" style="text-decoration:none;">
@@ -649,9 +652,14 @@
                                 <p class="footerprops quality-poppins footerprops-fontsize">Other Accessories</p>
                             </a>
                         </li>
+                        <li>
+                            <a href="product_other.html" style="text-decoration:none;">
+                                <p class="footerprops quality-poppins footerprops-fontsize dummy-para"></p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div>
                         <div>
                             <div style="margin-bottom:20px;">
@@ -706,6 +714,7 @@
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="assets/js/homejscript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
