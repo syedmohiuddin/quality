@@ -257,6 +257,7 @@
   .founder-image-caption {
     font-size: 15px;
     text-align: center;
+    padding-left: 0%;
   }
 }
 
@@ -801,6 +802,12 @@
 @media (max-width: 991px) {
   .label-tchup {
     padding-left: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .label-tchup {
+    padding-left: 0%;
   }
 }
 
